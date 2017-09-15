@@ -30,3 +30,10 @@ the projects runtime path.
 in the Projects window and choose Properties. Then click Run and enter the
 class name in the Main Class field. Alternatively, you can manually type the
 class name in the manifest Main-Class element.
+
+
+A Few assumptions were made:
+1)Such as the moving of the nano virus was implemented as being random within 5000 units.
+2)The actions of the nano virus were unclear on whether they were supposed to be random or not and hence was implemented as:
+  always destroying a tumour cell if it was on one; always moves on a cycle if it were on a red/white cell; and if there were no 
+  cells in range for the move the nano virus was set to do nothing.
